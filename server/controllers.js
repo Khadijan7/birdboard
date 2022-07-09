@@ -3,7 +3,7 @@ const bcrypt = require('bcrypt')
 const jwt  = require('jsonwebtoken')
 const { fetchTweetsByHashtags } = require('./twitter')
 
-
+//hi
 module.exports = (db) => {
   const userToJson = (user) => {
     return _.pick(user, ['id', 'email'])
